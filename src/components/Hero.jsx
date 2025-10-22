@@ -59,7 +59,7 @@ const Hero = () => {
                     <img
                         src={coffeeD}
                         alt="Splashing Coffee Hero Image"
-                        className="z-20 object-contain md:-mt-30 scale-120"
+                        className="z-20 object-contain md:-mt-50 scale-120"
                     />
                 </div>
             </div>

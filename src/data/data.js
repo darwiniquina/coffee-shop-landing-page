@@ -7,6 +7,8 @@ import d from "../assets/d.svg";
 import bg from "../assets/bg.svg";
 import bean from "../assets/bean.png";
 
+export const beanImage = bean;
+
 export const navContent = {
     brand: "Sunface Coffee",
     navLinks: [
@@ -29,29 +31,33 @@ export const heroContent = {
     beanImage: bean,
 };
 
+import coffeeAmericano from "../assets/coffee-americano.svg";
+import coffeeMatcha from "../assets/coffee-matcha.svg";
+import coffeeMocha from "../assets/coffee-mocha.svg";
+
+
 export const coffeeProducts = [
     {
         id: 1,
-        name: "Morning Ritual",
-        description: "Smooth, nutty medium roast with balanced sweetness and depth.",
-        image:
-            "https://images.unsplash.com/photo-1604152135912-04a022e23696?auto=format&fit=crop&w=600&q=80",
+        name: "Mocha",
+        description: "Smooth, chocolatey comfort in a cup — rich espresso meets cocoa for a cozy indulgence.",
+        imageUrl: coffeeMocha
     },
     {
         id: 2,
-        name: "Velvet Night",
-        description: "Dark roast with bold cocoa notes and a lingering finish.",
-        image:
-            "https://images.unsplash.com/photo-1510626176961-4b57d4fbad03?auto=format&fit=crop&w=600&q=80",
+        name: "Matcha Latte",
+        description: "Earthy, creamy, and calming — a gentle blend of green tea and milk that soothes the senses.",
+        imageUrl: coffeeMatcha
     },
     {
         id: 3,
-        name: "Amber Bloom",
-        description: "Light roast with bright citrus aroma and floral undertones.",
-        image:
-            "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=600&q=80",
+        name: "Sunface Brew",
+        description: "Bright, balanced, and bold — our signature house blend made to lift your mood and start your day smiling.",
+        imageUrl: coffeeAmericano
     },
 ];
+
+
 
 export const siteInfo = {
     brand: "Coffee Collective",

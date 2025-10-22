@@ -3,7 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Hero from './components/Hero'
-import Navbar from './components/Navbar'
+import CoffeeShowcase from './components/CoffeeShowcase'
+import Navbar from './components/NavBar'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +13,7 @@ function App() {
     <>
       <Navbar />
       <Hero />
+      <CoffeeShowcase />
     </>
   )
 }
