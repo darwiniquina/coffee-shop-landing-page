@@ -1,14 +1,13 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import Hero from "./components/Hero";
 import CoffeeShowcase from "./components/CoffeeShowcase";
 import Navbar from "./components/NavBar";
 import AboutUs from "./components/AboutUs";
+import AboutUsMobile from "./components/AboutUsMobile";
+import ContactSection from "./components/ContactSection";
+import Footer from "./components/Footer";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>
@@ -16,7 +15,9 @@ function App() {
       <Hero />
       <CoffeeShowcase />
       <AboutUs />
-      <div className="h-screen bg-green-200"></div>
+      <AboutUsMobile />
+      <ContactSection />
+      <Footer />
     </>
   );
 }

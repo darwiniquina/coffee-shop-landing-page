@@ -60,23 +60,34 @@ export const coffeeProducts = [
   },
 ];
 
+
+import coffeeStoryImage from "../assets/coffee-story.svg";
+import coffeeShopPicture from "../assets/coffee-shop-picture.jpg";
 export const aboutUsContent = {
+
+  coffeeStoryImage: coffeeStoryImage,
   title: "The Sunface Story",
-  story:
-    " Sunface began with a simple idea — that coffee should make you feel as good as it tastes. We wanted to bring a little sunshine into every cup, a moment of warmth in the middle of busy days. Each blend is made to lift your mood, calm your mind, and remind you that even small moments can smile back.",
+  story: "Sunface began with a simple idea — that coffee should make you feel as good as it tastes. We wanted to bring a little sunshine into every cup, a moment of warmth in the middle of busy days. Each blend is made to lift your mood, calm your mind, and remind you that even small moments can smile back.",
 
-  location:
-    "Come sip sunshine with us — where each cup is brewed with warmth, laughter, and a touch of home. Our doors (and hearts) are always open.",
+  visitUsMessage: "Come sip sunshine with us at our cozy corner café — where every cup feels like a smile.",
+  visitUsLocation: "We are located at San Jose del Monte Quirino",
 
-  visitUsMessage:
-    "Come sip sunshine with us at our cozy corner café — where every cup feels like a smile. We’re open daily from 7 AM to 8 PM at  San Jose del Monte Quirino Hwy, SJDM, Bulacan.",
-
-  gotQuestionMessage:
-    " Reach us at hello@sunface.coffee or find us on @sunfacecoffee. or Check our social medias! ",
+  openingScheduleMessage: "We are open daily from 7 AM to 8 PM",
+  dropByMessage: "Come sip sunshine with us — where each cup is brewed with warmth, laughter, and a touch of home. Our doors (and hearts) are always open.",
+  coffeeShopPicture: coffeeShopPicture,
 };
 
-export const siteInfo = {
-  brand: "Coffee Collective",
-  tagline: "Crafted for clarity, focus, and calm.",
-  vercelLink: "https://your-vercel-link-here.vercel.app",
+
+import fbImage from "../assets/socials-fb.svg";
+import twitterImage from "../assets/socials-twitter.svg";
+import instaImage from "../assets/socials-insta.svg";
+export const socialsContent = {
+  title: "Got questions or just want to say hi?",
+  content: "Reach us at hello@sunface.coffee or find us on @sunfacecoffee. or Check our social medias!",
+  socialLinks: [
+    { name: 'Instagram', href: '#', image: instaImage },
+    { name: 'Facebook', href: '#', image: fbImage },
+    { name: 'Twitter/X', href: '#', image: twitterImage },
+  ],
+  coffeePicture: c
 };
