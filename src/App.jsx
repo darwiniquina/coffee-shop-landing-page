@@ -1,7 +1,7 @@
 import "./App.css";
 import Hero from "./components/Hero";
 import CoffeeShowcase from "./components/CoffeeShowcase";
-import Navbar from "./components/NavBar";
+import Navbar from "./components/Navbar";
 import AboutUs from "./components/AboutUs";
 import AboutUsMobile from "./components/AboutUsMobile";
 import ContactSection from "./components/ContactSection";
