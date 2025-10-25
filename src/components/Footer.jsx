@@ -81,7 +81,7 @@ const Footer = () => {
                 <div className="mt-12 pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between">
 
                     <p className="text-base leading-5 mb-4 md:mb-0">
-                        &copy; {year} Sunface Coffee Co. All rights reserved.
+                        &copy; {year} Made by Darwin Iquina
                     </p>
 
                     <div className="flex space-x-6">

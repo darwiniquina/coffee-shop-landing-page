@@ -3,7 +3,6 @@
 @import "tailwindcss";
 
 :root {
-  /* font-family: system-ui, Avenir, Helvetica, Arial, sans-serif; */
   line-height: 1.5;
   font-weight: 400;
 
@@ -15,11 +14,6 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  background-image: url("./assets/bg.svg");
-  background-color: #8b5e3c;
-  background-size: cover;
-  background-position: center;
 }
 
 .poppins-bold {
@@ -33,4 +27,8 @@
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }

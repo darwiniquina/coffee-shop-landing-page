@@ -1,10 +1,7 @@
-// data.js
-
 import a from "../assets/a.svg";
 import b from "../assets/b.svg";
 import c from "../assets/c.svg";
 import d from "../assets/d.svg";
-import bg from "../assets/bg.svg";
 import bean from "../assets/bean.png";
 
 export const beanImage = bean;
@@ -28,7 +25,6 @@ export const heroContent = {
   coffeeB: b,
   coffeeC: c,
   coffeeD: d,
-  coffeeBg: bg,
   beanImage: bean,
 };
 

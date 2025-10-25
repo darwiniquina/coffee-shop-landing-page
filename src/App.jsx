@@ -6,19 +6,34 @@ import AboutUs from "./components/AboutUs";
 import AboutUsMobile from "./components/AboutUsMobile";
 import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
+import ScrollSmoother from "gsap/ScrollSmoother";
+
+gsap.registerPlugin(useGSAP, ScrollSmoother, ScrollTrigger);
 
 function App() {
 
+  useGSAP(() => {
+    ScrollSmoother.create({
+      smooth: 1,
+      effects: true,
+    });
+  })
+
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <CoffeeShowcase />
-      <AboutUs />
-      <AboutUsMobile />
-      <ContactSection />
-      <Footer />
-    </>
+    <div id="smooth-wrapper">
+      <div id="smooth-content">
+        <Navbar />
+        <Hero />
+        <CoffeeShowcase />
+        <AboutUs />
+        <AboutUsMobile />
+        <ContactSection />
+        <Footer />
+      </div>
+    </div>
   );
 }
 
