@@ -6,7 +6,7 @@ A celebration of motion, warmth, and caffeine — powered by scroll-triggered an
 ---
 
 ## 🌐 Live Demo
-[View on Vercel]([https://your-vercel-link.vercel.app](https://coffee-shop-landing-page-beige.vercel.app/))
+[LIVE VERCEL PREVIEW](https://coffee-shop-landing-page-beige.vercel.app/)
 
 ---
 
